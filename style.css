@@ -1,0 +1,129 @@
+@font-face {
+    font-family: Roboto_Condensed-Black;
+    src: url(./ASSETS/fonts/static/Roboto_Condensed-Black.ttf);
+}
+    @font-face {
+        font-family: Roboto_Condensed-LightItalic;
+        src: url(ASSETS/fonts/static/Roboto_Condensed-LightItalic.ttf);
+    }
+   @font-face {
+    font-family: Roboto-Regular;
+    src: url(./ASSETS/fonts/static/Roboto-Regular.ttf);
+   }
+h1{
+    font-family: roboto_condensed-black;
+}
+p{
+    font-family: Roboto-Regular;
+}
+
+nav ul {
+list-style: none;
+padding: 0;
+margin: 0;
+}
+nav{
+    background-color: yellow;
+    width: 34em;
+}
+nav li {
+    display: inline-block;
+    margin-right: 15px;
+    padding: 15px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+nav a {
+    text-decoration: none;  
+}
+h1 {
+    text-transform: uppercase;
+}
+h1 { 
+    text-align: center;
+}
+.test{
+    text-align: center;
+}
+.self{
+    display: flex;
+}
+.rest{
+    display: flex;
+}
+.mami{
+    display: flex;
+}
+.key{
+    display: flex;
+}
+.main{
+    display: flex;
+}
+.kane{
+    display: flex;
+}
+.diné{
+    display: flex;
+}
+.dahirou{
+    display: flex;
+}
+.type{
+    display: flex;
+}
+li{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h2{
+    font-family: roboto;
+}
+h3{
+    font-family: roboto;
+}
+.cheet{
+    background: url(./ASSETS/resto.jpeg); min-height: 100vh;
+    color: aliceblue;
+}
+header{
+    background-color: rgba(240, 255, 252, 0.623);
+}
+footer{
+    background-color: gray;
+    border-radius: 5px;
+}
+.select{
+    font-family: roboto ;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    border-color: yellow;
+}
+.man{
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.name{
+    margin: 3px;
+    padding: 3px;
+    border-radius: 3px;
+}
+.button{
+    margin:5px;
+    padding: 8px;
+    border-radius: 10px;
+    color: black;
+    background: blue;
+}
+.adress{
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    border-color: yellow;
+}
+.resume{
+    background-color: gray;
+}

@@ -6,6 +6,7 @@
     <!-- Titre de la page -->
     <title>ABK CHICKEN</title>
     <link rel="shortcut icon" href="./HTML5_logo_and_wordmark.svg.png">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!--ceci est l'entete du travail-->
@@ -22,7 +23,17 @@
     <header>
         <!-- Présentation bréve du restaurant   -->
         <section>
-            <h1>Bonjour à tous et à toutes, et bonjour du Sénégal!</h1>
+            <h1>Bienvenue chez ABK_CHICKEN!</h1>
+            <p class="test">Commandez facilement chez ABK_CHICKEN</p>
+            <section>
+                <label for="pet-select"></label>
+                <select class="select"  name="pets" id="pet-select">
+                <option value="">Séléctionnez votre mode de commande</option>
+                <option value="A emporter">A emporter</option>
+                <option value="livraison">Livraison</option></select>
+                <input class="adress" type="search" name="Adress" id="Adress" placeholder="Saisissez votre adresse">
+            </section> 
+
                 <p><strong>ABK CHICKEN</strong> est à votre disposition pour tout ce qui est cuisine sénégalaise (local) ou étrangére avec comme concept un plat local et un plat étrangére pour différent varieté.</p>
         </section>
         
@@ -32,9 +43,85 @@
     <section>
             <h2>Plus proche des clients</h2>
             <p>L'expérience nous a apptris qu'il fallait améliorer la relation entre les clients et les personnel restaurant, pas que physiquement mais virtuellement aussi avec une prise en charge améliorée et structure selon les désirs du client</p>
-            <img src="./tieboudieune-470x313-1.jpg" alt=""> <img src="./images.jpeg" height="300" alt=""> 
+            <img src="./tieboudieune-470x313-1.jpg" alt="">  
             <p><li>La Cuisine c'est de l'ART</li></p>
-            <img src="./VID_20250420_114036_171.mp4" alt="Vidéo">
+            <video class="self" src="./ASSETS/fonts/img, vidéo/WhatsApp Video 2025-04-28 at 17.15.03.mp4" height="500" width="600" controls> </video>
+           <p> La cuisine sénégalaise est la meilleure!!!</p>
+        </section>
+        <section>
+            <h1>Menu de délicieuses bouchée:</h1> 
+ <!-- J'énumére les apératifs et leurs descriptions   -->
+ <h2>Apératifs:</h2>
+ <ul>
+    <li> Salades Caprese:
+        <section class="self"><img src="./ASSETS/fonts/img, vidéo/salade caprese.jpeg" height="150" alt=""> 
+            <p>Tomates fraîches, mozzarella et basilic arrosés de glaçage balsamique.</p></section>
+        <div>PRIX: <s>5903CFA</s>; 2500CFA</div>
+    </li>
+    <br>
+    <br>
+    <li>Fataya:
+        <section class="rest"><img src="./ASSETS/fonts/img, vidéo/fataya.jpeg" height="200" alt="">
+        <p>De délicieux chaussons croustillants farcis d'un mélange savoureux de viande hachée épicée, d'oignons et d'herbes aromatiques. Parfait pour grignoter et ouvrir l'appétit.</p></section>
+        <div>PRIX: <s>500CFA</s>; 200CFA</div>
+    </li>
+    <br>
+    <br>
+    <li>Accras de Niébé:
+        <section class="mami"><img src="./ASSETS/fonts/img, vidéo/acrras au niébé.jpeg" height="150" alt="">
+        <p>De savoureux beignets préparés à la base de haricots noirs (niébé). croustillants à l'extérieur et moelleux à l'intérieur,ils s'offrent une explosion de saveurs.</p></section>
+        <div>PRIX: <s>400CFA</s>; 150CFA</div>
+    </li>
+    <br>
+    <br>
+ </ul>
+ <!-- Les plats présentes au menu et leurs descriptions -->
+ <h2>Plats Principaux:</h2>
+ <ul>
+    <li>Saumon Grillé:
+        <section class="key"><img src="./ASSETS/fonts/img, vidéo/saumon grillé.jpeg" height="200" alt="">
+        <p>Filet de saumon assaisonné et grillé à la perfection, servi avec une sauce au beurre citronné.</p></section>
+        <div>PRIX: <s>4000CFA</s>; 3000CFA</div>
+    </li>
+    <br>
+    <br>
+    <li>Thiéboudieune (Poisson au Riz Rouge): 
+        <section class="main"><img src="./ASSETS/fonts/img, vidéo/tieboudieune-470x313-1.jpg" height="100" alt="">
+        <P>Le Plat National Sénégalais ! Du Riz Rouge savoureux mijoté dans une sauce tomate parfumée avec du poisson frais (souvent du tiof ou du capitaine) et un assortiments de légumes comme des carottes, des aubergines et du manioc. Un repas copieux et profondément satisfaisant transmis de génération en génération.</P></section></li>
+        <div>PRIX: <s>2000CFA</s>; 1000CFA</div>
+        <br>
+        <li>Yassa au Poulet:
+            <section class="kane"><img src="./ASSETS/fonts/img, vidéo/yassa.jpeg" height="150" alt="">
+            <p>De tendres morceaux au poulet marinés toute une nuit dans u mélange vibrant de citon, d'oignons, de moutarde et d'épices, puis cuits lentement jusqu'à ce qu'ils soient incroyablement savoureux et succulents. Souvent servi avec du Riz blanc. Un plat familial parfumé et plein de saveurs.</p></section>
+            <div>PRIX: <s>2500CFA</s>; 1500CFA</div>
+        </li>
+        <br>
+    </ul>
+    <!-- Ci-dessous, on y verra les desserts et leurs descriptions -->
+ <h2>Desserts:</h2>
+    <ul>
+        <li>Fondue au chocolat:</li>
+        <section class="diné"><img src="./ASSETS/fonts/img, vidéo/fondue au chocolat.jpeg" height="200" alt="">
+        <p>Assortiment de fruits et de guimauves servis avec une riche fondue au chocolat.</p></section>
+        <div>PRIX: <s>5000CFA</s>; 2500CFA</div>
+        <br>
+        <br>
+        <li>Thiakry (Dégué):
+            <section class="dahirou"><img src="./ASSETS/fonts/img, vidéo/thiakry.jpeg" height="150" alt="">
+            <p>Un dessert rafraichissant et crémeux à base de couscousde mil fin, de yaourt sucré et de lait concentré sucré, parfumé à la vanille ou à la fleur d'oranger. Une douceur lactée trés appréciée.</p></section>
+            <div>PRIX: <s>1000CFA</s>; 8000CFA</div>
+        </li>
+        <br>
+        <br>
+        <li>Salade de Fruits Exotiques au Sirop de Bissap:
+            <section class="type"><img src="./ASSETS/fonts/img, vidéo/salade de fruits.jpeg" height="150" alt="">
+            <p>Un mélange coloré de fruits tropicaux frais (mangue, ananas, papaye) arrosé d'un sirop léger et parfumé au Bissap (jus d'Hibiscus). Un dessert léger, fruité et rafraichissant.</p></section>
+            <div>PRIX: <s>3500CFA</s>; 2500CFA</div>
+        </li>
+
+
+    </ul>
+    <p><a href="contact.html">Contactez-nous pour réserver</a></p>
         </section>
         <section>
             <h3>Défis à relever</h3>
